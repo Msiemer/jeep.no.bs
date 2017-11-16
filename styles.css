@@ -1,0 +1,517 @@
+* {
+    padding: 0px;
+    margin: 0px;
+} 
+
+@media (max-width: 500px) {
+    .JEEP-img {
+        flex-direction: column;
+    }
+} 
+  
+.container {
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.img {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 20.5px;
+    margin-left: 20.5px;
+    margin-bottom: 20.5px;
+    padding: 0px;
+    width: 90px;
+}
+
+.JEEP-img {
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 2;
+}
+
+.item {
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    border: 10px;
+    font-family: arial;
+    font-weight: 900;
+    height: 100%;
+    border: solid 2px black;
+}
+
+.item:hover .hero-image {
+  opacity: 0.4;
+}
+.item:hover {
+	background-color: #333;
+}
+
+.item6 {
+    margin-left: auto;
+}
+
+.item7 {
+    padding-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("images/jeep8.jpg");
+    height: auto;
+    margin: 0px auto;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.hero-text {
+    color: white;
+    font-family: Arial;
+    width: 200px;
+    margin: 60px;
+}
+
+.hero-text button {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 5px 10px;
+    color: black;
+    background-color: #FEB92C;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.hero-text-1 button {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: #636363;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.hero-text button:hover {
+    display: flex;
+    align-items: center;
+    background-color: #FEB92C;
+}
+
+.hero-text-1 button:hover {
+    display: flex;
+    align-items: center;
+    background-color: #636363;
+}
+
+.button {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    align-items: center;
+}
+
+
+
+
+
+@media (max-width: 400px) {
+    .images1-4 {
+    	display: block;
+        flex-direction: column;
+        justify-content:  center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .images1-4-0 {
+    	display: none;
+        flex-direction: column;
+        justify-content:  center;
+        align-items: center;
+    }
+}
+
+.bg-images1-4 {
+    display: flex;
+    background-color: lightgray;
+    flex-basis: 1300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-bg-images1-4 {
+    background-color: black;
+    justify-content: center;
+}
+
+.images1-4 {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    width: 296px;
+    height: 218px;
+    margin: 21px 9.5px 0px 9.5px;
+    flex-shrink: 1;
+    border: none;
+}
+
+.bottom-images1-4 {
+    display: flex;
+    align-self: baseline;
+    z-index: 1;
+    width: 296px;
+    height: 28px;
+    margin-left: 20px;
+    margin-bottom: 21px;
+}
+
+.bottom-images2-4 {
+    display: flex;
+    align-self: baseline;
+    z-index: 1;
+    width: 296px;
+    height: 28px;
+    margin-left: 9px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.bg-images1-4-0 {
+    display: none;
+    background-color: lightgray;
+    flex-basis: 1300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-bg-images1-4-0 {
+    background-color: black;
+    justify-content: center;
+}
+
+.images1-4-0 {
+    display: none;
+    justify-content: center;
+    background-color: lightgray;
+    width: 296px;
+    height: 218px;
+    margin: 21px 9.5px 0px 9.5px;
+    flex-shrink: 1;
+    border: none;
+}
+
+.bottom-images1-4-0 {
+    display: none;
+    align-self: baseline;
+    z-index: 1;
+    width: 296px;
+    height: 28px;
+    margin-left: 20px;
+    margin-bottom: 21px;
+}
+
+.bottom-images2-4-0 {
+    display: none;
+    align-self: baseline;
+    z-index: 1;
+    width: 296px;
+    height: 28px;
+    margin-left: 9px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.container-2 {
+    display: flex;
+    font-size: 2em;
+    background-color: lightgray;
+    width: 100%;
+    height: 80px;
+    font-family: Arial;
+    color: white;
+    align-items: center;
+}
+
+.item-1 {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+    flex-direction: row;
+}*/
+
+@media (min-width: 320px) {
+    .main-content-2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 500px) {
+    .main-content-2-2 {
+        flex-direction: column;
+    }
+}
+
+.main-content-2 {
+    flex: 5;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: Arial;
+    height: auto;
+    width: 100%;
+}
+
+.jumbotron {
+    display: flex;
+    border: white;
+    background-color: white;
+    margin: 30px 0px 5px 0px;
+    padding: 11px 0px 5px 0px;
+    flex-basis: 1300px;
+    justify-content: center;
+}
+
+.J®V {
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 2;
+    font-family: Arial;
+}
+
+.card-0 {
+    display: flex;
+    flex: 1;
+    flex-basis: 100px;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-direction: column;
+}
+
+.VEHICELS {
+    justify-content: center;
+    align-items: center;
+    height: 139px;
+    width: 297px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.CARS {
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    height: ;
+    font-family: Arial;
+    font-weight: 800;
+}
+
+.MSRP {
+    color: #60605E;
+    font-family: Arial;
+    font-size: 8px;
+    font-weight: 70;
+    margin: 0px;
+    padding: 0px;
+}
+
+.price {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0px 0px 15px 0px;
+    font-weight: 800;
+}
+
+
+
+.main-content-2-2 {
+    flex: 5;
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: Arial;
+    height: auto;
+    width: 100%;
+}
+
+.jumbotron-1 {
+    display: none;
+    border: white;
+    background-color: white;
+    margin: 30px 0px 5px 0px;
+    padding: 11px 0px 5px 0px;
+    flex-basis: 1300px;
+    justify-content: center;
+}
+.J®V-1 {
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 2;
+    font-family: Arial;
+}
+
+.card-0-1 {
+    display: none;
+    flex: 1;
+    flex-basis: 100px;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-direction: column;
+}
+
+.VEHICELS-1 {
+    justify-content: center;
+    align-items: center;
+    height: 139px;
+    width: 297px;
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+
+.CARS-1 {
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    height: ;
+    font-family: Arial;
+    font-weight: 800;
+}
+
+.MSRP-1 {
+    color: #60605E;
+    font-family: Arial;
+    font-size: 8px;
+    font-weight: 70;
+    margin: 0px;
+    padding: 0px;
+}
+
+.price-1 {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0px 0px 15px 0px;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+.thebox {
+    background-color: #D1D1D1;
+    height: 236px;
+}
+
+.box {
+    display: flex;
+    flex-shrink: 2;
+    font-family: sans-serif;
+    flex-wrap: nowrap;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1 {
+    font-weight: 900px;
+    float: right;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 45%;
+}
+
+.box-3 {
+    padding: 10px;
+    margin: 0px;
+    align-items: center;
+    width: 150px;
+}
+
+.Learn-more {
+    padding-top: 14px;
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+@media screen and (min-width: 1005px) {
+    . {
+        width: 50%;
+    }
+}
+
+.container-1 {
+	display: flex;
+    background-color: #212121;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.more-info {
+    color: white;
+}
+
+.container-2 {
+	display: flex;
+	background-color: black;
+    height: 917px;
+    color: white;
+}
+
+.more-info-black {
+    background-color: black;
+    height: 917px;
+    color: white;
+}
