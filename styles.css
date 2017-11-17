@@ -1,14 +1,14 @@
 * {
     padding: 0px;
     margin: 0px;
-} 
+}
 
 @media (max-width: 500px) {
     .JEEP-img {
         flex-direction: column;
     }
-} 
-  
+}
+
 .container {
     display: flex;
     background-color: black;
@@ -17,12 +17,7 @@
 }
 
 .img {
-    display: flex;
-    align-self: flex-start;
-    margin-top: 20.5px;
-    margin-left: 20.5px;
-    margin-bottom: 20.5px;
-    padding: 0px;
+    margin-left: 20.0px;
     width: 90px;
 }
 
@@ -36,20 +31,19 @@
     color: #fff;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    border: 10px;
+    padding-top: 3.2%;
+    padding-bottom: 3.3%;
     font-family: arial;
     font-weight: 900;
     height: 100%;
-    border: solid 2px black;
 }
 
 .item:hover .hero-image {
-  opacity: 0.4;
+    opacity: 0.4;
 }
+
 .item:hover {
-	background-color: #333;
+    background-color: #333;
 }
 
 .item6 {
@@ -71,7 +65,7 @@
 body,
 html {
     height: 100%;
-    margin: 0;
+    margin: -3px;
 }
 
 .hero-image {
@@ -79,8 +73,8 @@ html {
     justify-content: flex-end;
     background-image: url("images/jeep8.jpg");
     height: auto;
-    margin: 0px auto;
-    background-position: center;
+    width: 100%;
+    margin: 0px;
     background-size: cover;
     align-items: center;
 }
@@ -90,6 +84,16 @@ html {
     font-family: Arial;
     width: 200px;
     margin: 60px;
+}
+
+* {
+    padding: 0px;
+    margin: -4px;
+}
+
+.Black-Friday {
+    width: 90px;
+    height: 50%;
 }
 
 .hero-text button {
@@ -140,9 +144,9 @@ html {
 
 @media (max-width: 400px) {
     .images1-4 {
-    	display: block;
+        display: block;
         flex-direction: column;
-        justify-content:  center;
+        justify-content: center;
         align-items: center;
     }
 }
@@ -150,9 +154,9 @@ html {
 
 @media (max-width: 400px) {
     .images1-4-0 {
-    	display: none;
+        display: none;
         flex-direction: column;
-        justify-content:  center;
+        justify-content: center;
         align-items: center;
     }
 }
@@ -161,8 +165,8 @@ html {
     display: flex;
     background-color: lightgray;
     flex-basis: 1300px;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    margin: 0px 20px 0px 20px lightgray;
 }
 
 .bg-bg-images1-4 {
@@ -175,8 +179,8 @@ html {
     justify-content: center;
     background-color: lightgray;
     width: 296px;
-    height: 218px;
-    margin: 21px 9.5px 0px 9.5px;
+    height: 220px;
+    margin: 18px 9.5px 18px 9.5px;
     flex-shrink: 1;
     border: none;
 }
@@ -187,8 +191,7 @@ html {
     z-index: 1;
     width: 296px;
     height: 28px;
-    margin-left: 20px;
-    margin-bottom: 21px;
+    margin: -18px 0px 21px 20px;
 }
 
 .bottom-images2-4 {
@@ -197,9 +200,10 @@ html {
     z-index: 1;
     width: 296px;
     height: 28px;
-    margin-left: 9px;
-    margin-bottom: 20px;
+    margin: -18px 0px 0px 9px;
 }
+
+
 
 
 
@@ -225,7 +229,7 @@ html {
     height: 218px;
     margin: 21px 9.5px 0px 9.5px;
     flex-shrink: 1;
-    border: none;
+    border: 0px;
 }
 
 .bottom-images1-4-0 {
@@ -251,18 +255,6 @@ html {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*.container-2 {
     display: flex;
     font-size: 2em;
@@ -282,13 +274,21 @@ html {
     flex-direction: row;
 }*/
 
-@media (min-width: 320px) {
-    .main-content-2 {
-        display: flex;
+@media (min-width: 769px) {
+
+    .main-content-2-2,
+    .card-0-1 {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main-header {
         flex-direction: column;
+        align-items: center;
     }
 }
-@media (max-width: 500px) {
+
+@media (min-width: 500px) {
     .main-content-2-2 {
         flex-direction: column;
     }
@@ -302,6 +302,10 @@ html {
     font-family: Arial;
     height: auto;
     width: 100%;
+    justify-content: center;
+    padding-bottom: 35px;
+    /*    margin-right:20px;
+    margin-left:20px; */
 }
 
 .jumbotron {
@@ -310,33 +314,42 @@ html {
     background-color: white;
     margin: 30px 0px 5px 0px;
     padding: 11px 0px 5px 0px;
-    flex-basis: 1300px;
+    /*flex-basis: 1300px;*/
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 20px;
     justify-content: center;
 }
 
 .J®V {
     justify-content: center;
     align-items: center;
-    flex-shrink: 2;
+    flex-grow: 2;
     font-family: Arial;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 20px;
 }
 
 .card-0 {
     display: flex;
-    flex: 1;
     flex-basis: 100px;
     height: 100%;
     flex-wrap: wrap;
-    flex-direction: row;
-    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
 }
 
 .VEHICELS {
     justify-content: center;
     align-items: center;
-    height: 139px;
-    width: 297px;
-    padding: 0px;
+    height: 140px;
+    width: 300px;
+    padding-top: 10px;
     margin: 0px;
 }
 
@@ -344,29 +357,28 @@ html {
     padding: 10px 0px 10px 0px;
     margin: 0px;
     height: ;
-    font-family: Arial;
+    font-family: Helvetica;
     font-weight: 800;
+    font-size: 100%;
 }
 
 .MSRP {
     color: #60605E;
     font-family: Arial;
-    font-size: 8px;
+    font-size: 7px;
     font-weight: 70;
     margin: 0px;
     padding: 0px;
 }
 
 .price {
-    color: #000;
-    font-family: Helvetica;
-    font-size: 1rem;
+    font-size: 1.21429rem;
     font-weight: 700;
     margin: 0px 0px 15px 0px;
     font-weight: 800;
+    color: #000;
+    font-size: 110%;
 }
-
-
 
 .main-content-2-2 {
     flex: 5;
@@ -387,6 +399,7 @@ html {
     flex-basis: 1300px;
     justify-content: center;
 }
+
 .J®V-1 {
     justify-content: center;
     align-items: center;
@@ -447,6 +460,12 @@ html {
 
 
 
+
+
+
+
+
+
 .thebox {
     background-color: #D1D1D1;
     height: 236px;
@@ -460,6 +479,12 @@ html {
     margin: 0px;
     justify-content: center;
     align-items: center;
+    width: fit-content;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
 }
 
 .box-1 {
@@ -491,7 +516,7 @@ html {
 }
 
 .container-1 {
-	display: flex;
+    display: flex;
     background-color: #212121;
     color: white;
     justify-content: center;
@@ -504,10 +529,12 @@ html {
 }
 
 .container-2 {
-	display: flex;
-	background-color: black;
+    display: flex;
+    background-color: black;
     height: 917px;
     color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 .more-info-black {
